@@ -14,6 +14,7 @@ def long_planeteer_calls(calls)# code an argument here
     return false
   else
     return true
+  end
   # end
   # calls.each do |call|
   #   if call.size > 4
