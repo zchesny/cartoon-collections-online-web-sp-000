@@ -10,7 +10,7 @@ end
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
-  if calls.detect{|call| call.size > 4} == nil
+  if calls.detect{|call| is_long?(call)} == nil
     return false
   else
     return true
