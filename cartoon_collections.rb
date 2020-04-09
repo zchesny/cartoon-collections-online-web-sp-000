@@ -10,6 +10,16 @@ end
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
+  if calls.detect{|call| call.size > 4} == nil
+    return false
+  else
+    return true 
+  # end 
+  # calls.each do |call|
+  #   if call.size > 4
+  #     return true 
+  #   end
+  # end
 end
 
 def find_the_cheese# code an argument here
