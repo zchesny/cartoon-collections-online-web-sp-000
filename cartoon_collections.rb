@@ -13,11 +13,11 @@ def long_planeteer_calls(calls)# code an argument here
   if calls.detect{|call| call.size > 4} == nil
     return false
   else
-    return true 
+    return true
   # end 
   # calls.each do |call|
   #   if call.size > 4
-  #     return true 
+  #     return true
   #   end
   # end
 end
